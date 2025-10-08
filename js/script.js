@@ -190,4 +190,3 @@ window.addEventListener("click", e => {
     if (e.target === modal) modal.style.display = "none"; // se cierra al hacer clic fuera
   });
 });
-
