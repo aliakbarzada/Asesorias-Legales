@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asesorías Legales - Confianza y Profesionalismo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>ASESORÍAS</h1>
+                        <p>LEGALES</p>
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <nav class="nav" id="nav">
+                    <a href="#inicio" class="nav-link">Inicio</a>
+                    <a href="#asesorias" class="nav-link">Asesorías</a>
+                    <a href="#normativas" class="nav-link">Normativas</a>
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Confianza y Profesionalismo en Asesorías Legales</h1>
+                    <p>Tu aliado en migración, derecho civil, consumidor, familia y copropiedad.</p>
+                    <a href="#asesorias" class="btn btn-primary">Conócenos</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="asesorias" class="services">
+        <div class="container">
+            <div class="section-header">
+            <h2>Nuestros Servicios Legales</h2>
+            <p>Ofrecemos asesoría especializada en las principales áreas del derecho, con un enfoque humano y profesional.</p>
+            </div>
+            <div class="services-grid">
+            <!-- FILA 1 -->
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-passport"></i></div>
+                <h3>Derecho Migratorio</h3>
+                <p>Asesoría completa en trámites migratorios, obtención de visas y nacionalización en Chile.</p>
+                <button class="btn btn-secondary ver-mas-btn" data-target="migratorio-info">Ver más</button>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-gavel"></i></div>
+                <h3>Derecho Civil</h3>
+                <p>Soluciones legales en arrendamientos, contratos, indemnizaciones y otras materias civiles.</p>
+                <button class="btn btn-secondary ver-mas-btn" data-target="civil-info">Ver más</button>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-users"></i></div>
+                <h3>Derecho de Familia</h3>
+                <p>Asesoría legal en divorcios, pensión de alimentos y cuidado personal de menores.</p>
+                <button class="btn btn-secondary ver-mas-btn" data-target="familia-info">Ver más</button>
+            </div>
+
+            <!-- FILA 2 -->
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-scale-balanced"></i></div>
+                <h3>Juzgado de Policía Local</h3>
+                <p>Representación legal ante conflictos de tránsito, consumo y copropiedad.</p>
+                <button class="btn btn-secondary ver-mas-btn" data-target="policia-info">Ver más</button>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-building"></i></div>
+                <h3>Corretaje de Propiedades</h3>
+                <p>Gestión integral en compra, venta y administración de inmuebles con respaldo legal.</p>
+                <button class="btn btn-secondary ver-mas-btn" data-target="propiedades-info">Ver más</button>
+            </div>
+
+            <!-- NUEVO BOX: OTROS SERVICIOS -->
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-certificate"></i></div>
+                <h3>Otros Servicios</h3>
+                <p>Protege tu marca y asegura su registro ante el INAPI con nuestro equipo especializado.</p>
+                <button class="btn btn-secondary ver-mas-btn" data-target="otros-info">Ver más</button>
+            </div>
+            </div>
+
+
+        </div>
+        </section>
+
+        <!-- ======================= -->
+        <!-- MODALES DE SERVICIOS -->
+        <!-- ======================= -->
+
+        <!-- DERECHO MIGRATORIO -->
+        <div id="migratorio-info" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>DERECHO MIGRATORIO</h2>
+            <p>Asesoramos a extranjeros en todos los procesos migratorios en Chile. Acompañamos cada etapa, desde la solicitud inicial hasta la residencia definitiva.</p>
+            <ul>
+            <li>Residencia Transitoria</li>
+            <li>Residencia Temporal</li>
+            <li>Residencia Definitiva</li>
+            <li>Nacionalidad</li>
+            <li>Refugio</li>
+            <li>Sanciones / Multas</li>
+            <li>Recursos Judiciales y Administrativos</li>
+            </ul>
+        </div>
+        </div>
+
+        <!-- DERECHO CIVIL -->
+        <div id="civil-info" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>DERECHO CIVIL</h2>
+            <p>Brindamos apoyo en todo tipo de conflictos civiles, ofreciendo soluciones legales en juicios, contratos y posesiones efectivas.</p>
+            <ul>
+            <li>Juicio de Arrendamiento</li>
+            <li>Juicio de Indemnización de Perjuicios</li>
+            <li>Cambio de Nombre</li>
+            <li>Solicitudes de Interdicción</li>
+            <li>Muerte Presunta</li>
+            <li>Juicios de Partición</li>
+            <li>Posesión Efectiva</li>
+            <li>Redacción de Escrituras y Contratos</li>
+            </ul>
+        </div>
+        </div>
+
+        <!-- DERECHO DE FAMILIA -->
+        <div id="familia-info" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>DERECHO DE FAMILIA</h2>
+            <p>Atendemos conflictos familiares con empatía y compromiso, garantizando el respeto y bienestar de las partes involucradas.</p>
+            <ul>
+            <li>Divorcio y Separación Judicial</li>
+            <li>Pensión de Alimentos</li>
+            <li>Cumplimiento de Alimentos</li>
+            <li>Autorización de Salida del País</li>
+            <li>Relación Directa y Regular (Visitas)</li>
+            <li>Cuidado Personal</li>
+            <li>Compensación Económica</li>
+            </ul>
+        </div>
+        </div>
+
+        <!-- JUZGADO DE POLICÍA LOCAL -->
+        <div id="policia-info" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>JUZGADO DE POLICÍA LOCAL</h2>
+            <p>Representamos a personas naturales y jurídicas ante juzgados locales, defendiendo sus derechos en materias sancionatorias y administrativas.</p>
+            <ul>
+            <li>Ley de Tránsito</li>
+            <li>Ley de Copropiedad</li>
+            <li>Ley de Consumidor</li>
+            <li>Ley de Fraude Bancario</li>
+            </ul>
+        </div>
+        </div>
+
+        <!-- CORRETAJE DE PROPIEDADES -->
+        <div id="propiedades-info" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>CORRETAJE DE PROPIEDADES</h2>
+            <p>Ofrecemos respaldo legal y gestión profesional en la compra, arriendo y administración de inmuebles.</p>
+            <ul>
+            <li>Compra-Venta de Inmuebles</li>
+            <li>Administración de Propiedades</li>
+            <li>Arriendo de Inmuebles</li>
+            <li>Estudio de Títulos</li>
+            </ul>
+        </div>
+        </div>
+
+        <!-- OTROS SERVICIOS -->
+        <div id="otros-info" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>OTROS SERVICIOS</h2>
+            <p>Además de nuestras áreas principales, ofrecemos asesorías en registro y protección de marcas comerciales ante el Instituto Nacional de Propiedad Industrial (INAPI).</p>
+            <ul>
+            <li>Registro de Marcas</li>
+            <li>Oposiciones o Defensas ante INAPI</li>
+            <li>Renovación de Marcas</li>
+            <li>Transferencias y Licencias de Uso</li>
+            </ul>
+        </div>
+        </div>
+
+
+
+
+        <!-- Legal Updates Section -->
+        <section id="normativas" class="legal-updates">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Últimas Normativas en Chile</h2>
+                    <p>Mantente informado sobre los cambios legales más importantes que pueden afectar tus derechos.</p>
+                </div>
+
+                <div class="updates-grid">
+                    <div class="update-card">
+                        <div class="update-header">
+                            <span class="update-badge blue">Decreto</span>
+                            <span class="update-date">15 de Enero, 2024</span>
+                        </div>
+                        <h3>Nueva Ley de Migración y Extranjería</h3>
+                        <p>Modificaciones importantes en los requisitos para obtener residencia permanente en Chile.</p>
+                        <div class="update-category">Migración</div>
+                        <a href="#" class="update-link">Leer más detalles →</a>
+                    </div>
+
+                    <div class="update-card">
+                        <div class="update-header">
+                            <span class="update-badge green">Ley</span>
+                            <span class="update-date">28 de Diciembre, 2023</span>
+                        </div>
+                        <h3>Actualización en Ley del Consumidor</h3>
+                        <p>Nuevas garantías para compras online y modificaciones en los plazos de reclamo.</p>
+                        <div class="update-category">Consumidor</div>
+                        <a href="#" class="update-link">Leer más detalles →</a>
+                    </div>
+
+                    <div class="update-card">
+                        <div class="update-header">
+                            <span class="update-badge purple">Reforma</span>
+                            <span class="update-date">10 de Noviembre, 2023</span>
+                        </div>
+                        <h3>Reforma al Código de Familia</h3>
+                        <p>Cambios en los procesos de adopción y nuevas medidas de protección infantil.</p>
+                        <div class="update-category">Familia</div>
+                        <a href="#" class="update-link">Leer más detalles →</a>
+                    </div>
+
+                    <div class="update-card">
+                        <div class="update-header">
+                            <span class="update-badge teal">Circular</span>
+                            <span class="update-date">05 de Octubre, 2023</span>
+                        </div>
+                        <h3>Ley de Copropiedad Inmobiliaria</h3>
+                        <p>Nuevas obligaciones para administradores de edificios y resolución de conflictos.</p>
+                        <div class="update-category">Copropiedad</div>
+                        <a href="#" class="update-link">Leer más detalles →</a>
+                    </div>
+
+                    <div class="update-card">
+                        <div class="update-header">
+                            <span class="update-badge indigo">Ley</span>
+                            <span class="update-date">20 de Septiembre, 2023</span>
+                        </div>
+                        <h3>Modificación al Código del Trabajo</h3>
+                        <p>Nuevos derechos para trabajadores remotos y regulación del teletrabajo en Chile.</p>
+                        <div class="update-category">Laboral</div>
+                        <a href="#" class="update-link">Leer más detalles →</a>
+                    </div>
+
+                    <div class="update-card">
+                        <div class="update-header">
+                            <span class="update-badge rose">Reglamento</span>
+                            <span class="update-date">12 de Agosto, 2023</span>
+                        </div>
+                        <h3>Ley de Protección de Datos Personales</h3>
+                        <p>Fortalecimiento de los derechos de privacidad y nuevas obligaciones para empresas.</p>
+                        <div class="update-category">Privacidad</div>
+                        <a href="#" class="update-link">Leer más detalles →</a>
+                    </div>
+                </div>
+
+                <div class="section-cta">
+                    <p>¿Tienes dudas sobre estos cambios legales?</p>
+                    <a href="#contacto" class="btn btn-primary">Consulta con nuestros expertos</a>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Lo que dicen nuestros clientes</h2>
+                    <p>La confianza de nuestros clientes es nuestro mayor logro. Estas son algunas de sus experiencias.</p>
+                    <h4>debe ir esto??</h4>
+
+                </div>
+
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Excelente servicio. Me ayudaron con todo el proceso de residencia permanente. Muy profesionales y siempre disponibles para resolver mis dudas."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">MG</div>
+                            <div class="author-info">
+                                <h4>María González</h4>
+                                <p>Santiago, Chile</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-service">Asesoría Migratoria</div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Atravesé un proceso de divorcio difícil y el equipo me brindó el apoyo legal y emocional que necesitaba. Muy recomendable."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">CR</div>
+                            <div class="author-info">
+                                <h4>Carlos Rodríguez</h4>
+                                <p>Valparaíso, Chile</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-service">Derecho de Familia</div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Tuve un problema con una empresa de telecomunicaciones y lograron resolver mi caso exitosamente. Muy agradecida por su profesionalismo."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">AF</div>
+                            <div class="author-info">
+                                <h4>Ana Fernández</h4>
+                                <p>Concepción, Chile</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-service">Derecho del Consumidor</div>
+                    </div>
+                </div>
+
+                <div class="section-cta">
+                    <p>¿Listo para obtener la asesoría legal que necesitas?</p>
+                    <button class="btn btn-primary">Agenda tu consulta gratuita</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contacto" class="contact">
+<!-- Contact Form -->
+<!-- Contact Section -->
+<section id="contacto" class="contact">
+  <div class="container">
+    <div class="contact-content">
+      
+      <!-- Contact Form -->
+      <div class="contact-form-container">
+        <div class="form-header">
+          <i class="fas fa-comments"></i>
+          <h3>Solicita tu Consulta</h3>
+        </div>
+        <form id="contact-form" class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">Nombre</label>
+              <input type="text" id="firstName" name="firstName" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-group">
+              <label for="lastName">Apellido</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Tu apellido" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Teléfono</label>
+              <input type="tel" id="phone" name="phone" placeholder="+56 9 1234 5678">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="service">Área de Asesoría</label>
+            <select id="service" name="service" required>
+              <option value="">Selecciona el área legal</option>
+              <option value="migracion">Asesoría Migratoria</option>
+              <option value="familia">Derecho de Familia</option>
+              <option value="consumidor">Derecho del Consumidor</option>
+              <option value="copropiedad">Ley de Copropiedad</option>
+              <option value="otro">Otra área legal</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Describe tu situación</label>
+            <textarea id="message" name="message" rows="4" placeholder="Cuéntanos brevemente tu caso o consulta legal..."></textarea>
+          </div>
+
+          <div class="form-buttons">
+            <button type="submit" class="btn btn-primary">
+              <i class="fas fa-calendar-alt"></i>
+              Enviar Consulta
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Ubicación</h4>
+            <p>Av. Providencia 1234, Oficina 501</p>
+            <p>Providencia, Santiago, Chile</p>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Teléfono</h4>
+            <p>+56 2 2234 5678</p>
+            <p>+56 9 8765 4321</p>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Email</h4>
+            <p>info@asesoriaslegales.cl</p>
+            <p>contacto@asesoriaslegales.cl</p>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Horarios</h4>
+            <p>Lunes a Viernes: 9:00 - 18:00</p>
+            <p>Sábados: 9:00 - 13:00</p>
+          </div>
+        </div>
+
+        <!-- Emergency Contact -->
+        <div class="emergency-contact">
+          <h4>Consultas de Emergencia</h4>
+          <p>Para casos urgentes fuera del horario de oficina</p>
+          <button class="btn btn-emergency">
+            <i class="fas fa-phone"></i>
+            +56 9 9999 9999
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Company Info -->
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <div class="logo-text">
+                            <h3>ASESORÍAS</h3>
+                            <p>LEGALES</p>
+                        </div>
+                    </div>
+                    <p>Brindamos servicios legales de calidad con más de 15 años de experiencia. Tu confianza es nuestro compromiso.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Services -->
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#">Asesoría Migratoria</a></li>
+                        <li><a href="#">Derecho de Familia</a></li>
+                        <li><a href="#">Derecho del Consumidor</a></li>
+                        <li><a href="#">Ley de Copropiedad</a></li>
+                        <li><a href="#">Consultoría Legal</a></li>
+                    </ul>
+                </div>
+
+                <!-- Navigation -->
+                <div class="footer-section">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#asesorias">Nuestros Servicios</a></li>
+                        <li><a href="#normativas">Normativas</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#">Blog Legal</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Av. Providencia 1234, Santiago</li>
+                        <li><i class="fas fa-phone"></i> +56 2 2234 5678</li>
+                        <li><i class="fas fa-envelope"></i> info@asesoriaslegales.cl</li>
+                        <li><i class="fas fa-clock"></i> Lun - Vie: 9:00 - 18:00</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Asesorías Legales. Todos los derechos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Política de Privacidad</a>
+                    <a href="#">Términos de Servicio</a>
+                    <a href="#">Aviso Legal</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+<!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<!-- Tu script -->
+<script src="js/script.js"></script>
+</body>
+</html>
+
