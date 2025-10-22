@@ -232,3 +232,42 @@ async function cargarNormativas() {
 
 // Ejecutar al cargar la página
 document.addEventListener('DOMContentLoaded', cargarNormativas);
+
+
+
+
+
+// script.js
+
+// Menú móvil
+const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+const nav = document.getElementById("nav");
+if (mobileMenuBtn && nav) {
+  mobileMenuBtn.addEventListener("click", () => {
+    nav.classList.toggle("active");
+  });
+}
+
+// Modales de servicios
+const modals = document.querySelectorAll(".modal");
+const verMasBtns = document.querySelectorAll(".ver-mas-btn");
+const closeBtns = document.querySelectorAll(".close-btn");
+
+verMasBtns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const target = btn.getAttribute("data-target");
+    document.getElementById(target).style.display = "block";
+  });
+});
+
+closeBtns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    btn.closest(".modal").style.display = "none";
+  });
+});
+
+window.addEventListener("click", (e) => {
+  if (e.target.classList.contains("modal")) {
+    e.target.style.display = "none";
+  }
+});

@@ -5341,3 +5341,273 @@ a { color: inherit; text-decoration: none; }
 html {
   scroll-behavior: smooth;
 }
+
+
+
+
+/*HTML*/
+/* index.css - ajustes específicos del sitio */
+.hero {
+  background: linear-gradient(135deg, rgba(30, 58, 138, 0.9), rgba(13, 148, 136, 0.7)),
+              url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: left;
+  padding: 6rem 2rem;
+}
+
+.section-header h2 {
+  color: #1e3a8a;
+  font-weight: 700;
+}
+
+.btn-ver-todos {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  background-color: #0d9488;
+  color: #fff;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-ver-todos:hover {
+  background-color: #0f766e;
+}
+
+/* Normativas page adjustments */
+.updates-grid {
+  margin-top: 2rem;
+}
+.update-card h3 {
+  color: #1e3a8a;
+}
+
+
+/*MODAL */ 
+
+/* modal.css - estilos de ventanas modales */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  animation: modalFade 0.3s ease;
+}
+
+@keyframes modalFade {
+  from {opacity: 0; transform: translateY(-20px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+.close-btn {
+  float: right;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.close-btn:hover {
+  color: #0d9488;
+}
+
+
+
+/*css practicas*/   
+/* =======================
+/* =======================
+   ÁREA DE PRÁCTICAS - ESTILO UNIFICADO
+   ======================= */
+.hero-practicas {
+  background: linear-gradient(135deg, #1e3a8a 0%, #0d9488 100%);
+  color: #ffffff;
+  text-align: center;
+  padding: 8rem 1rem 6rem;
+  margin-top: 70px;
+}
+
+.hero-practicas h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-practicas p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.125rem;
+  color: #dbeafe;
+}
+
+/* GRID PRINCIPAL */
+.practicas-section {
+  padding: 4rem 0 6rem;
+  background-color: #f9fafb;
+}
+
+.practicas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.practica-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid #e5e7eb;
+}
+
+.practica-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(13, 148, 136, 0.25);
+  border-color: #0d9488;
+}
+
+.practica-card .icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  background-color: #e6fffa;
+  color: #0d9488;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  transition: all 0.3s ease;
+}
+
+.practica-card:hover .icon {
+  background-color: #0d9488;
+  color: #fff;
+}
+
+.practica-card h3 {
+  color: #1e3a8a;
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.practica-card p {
+  color: #475569;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .hero-practicas h1 {
+    font-size: 2rem;
+  }
+  .hero-practicas p {
+    font-size: 1rem;
+  }
+  .practica-card {
+    padding: 1.5rem;
+  }
+}
+
+
+/* NAVBAR UNIFICADO */
+.header {
+  background-color: #1e3a8a; /* Azul marino */
+  color: white;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #5eead4; /* verde agua igual que en index */
+}
+
+
+.footer {
+  background-color: #1e3a8a;
+  color: #fff;
+  padding: 4rem 2rem 2rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer h4 {
+  color: #5eead4;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.footer a {
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #5eead4;
+}
+
+.footer-bottom {
+  border-top: 1px solid #334155;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+.footer-logo-img {
+  width: 45px;
+  height: 45px;
+  margin-right: 8px;
+}
